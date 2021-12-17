@@ -219,7 +219,7 @@ Error_Handler();
 		  switch (player)
 		  {
 		  case turnA:
-			  test_M7 = 2;
+			  test_M7 = 2; // test that M7 running ... Why test = 1 !!!
 			  if ((s1[1] == GPIO_PIN_SET) && (s1[0] == GPIO_PIN_RESET))
 			  {
 				  a_1 = 1;
